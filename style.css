@@ -1,7 +1,22 @@
 body {
-    color: whitesmoke;
+    color: black;
+    background-color: #F8F0E3;
 }
 
 div {
     
+} 
+
+.center {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.texta {
+    font-family: Nunito;
+    font-size: 18px;
+    text-align: center;
+    font-display: bold;
+    color: #CBC3E3;
 }
