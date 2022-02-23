@@ -10,7 +10,7 @@
     font-family: "Nunito", sans-serif;
     font-weight: 200;
     font-size: 16px;
-    color:#b8a7aa;
+    color:#47bac0;
     text-decoration: none;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .navlinks li a {
-    color: #18181a;
+    color: #47bac0;
     text-decoration: none;
     font-size: 18px;
     transition: all 0.3s ease 0s;
@@ -61,7 +61,7 @@ body {
 }
 
 header {
-    background-color: #b8a7aa;
+    background-color: #5d4c52;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,7 +74,7 @@ h2 {
 }
 
 .siteheader {
-    color: #5d4c52;
+    color: #47bac0;
     text-align: left;
     
 }
@@ -122,7 +122,7 @@ footer {
     width: 100vw;
     font-family: "Nunito";
     padding-top: 40px;
-    color: #47bac0;
+    color: #18181a;
 }
 
 .footer-content {
@@ -158,17 +158,17 @@ footer {
 
 .socials li {
     margin: 0 10px;
-    color: #47bac0
+    color: #18181a
 }
 
 .socials a {
     text-decoration: none;
-    color:#47bac0;
+    color:#18181a;
 }
 
 .socials a i {
     font-size: 1.1rem;
-    color: #47bac0;
+    color: #18181a;
     transition: color .4s ease;
 }
 
@@ -184,6 +184,7 @@ footer {
 }
 
 .footer-bottom p {
+    color: #18181a;
     display: flex;
     align-items: center;
     justify-content: center;
