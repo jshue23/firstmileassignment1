@@ -32,9 +32,13 @@
     color: cyan;
 }
 
+#contactbutton {
+    font-family: "Nunito";
+}
+
 button { 
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgba(71,186,192,255);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -42,12 +46,12 @@ button {
 }
 
 button:hover {
-    background-color:rgba(0,136,169,0.8)
+    background-color:rgba(138,64,98,255)
 }
 
 body {
-    color: #5d4c52;
-    background-color: #b8a7aa;
+    color: #47bac0;
+    background-color: #18181a;
     font-family: "Nunito", sans-serif;
     font-weight: 200;
 }
@@ -76,7 +80,7 @@ h2 {
     font-weight: normal;
     font-size: 18px;
     text-align: center;
-    color: #5d4c52;
+    color: #47bac0;
 }
 
 #featured-video {
@@ -91,6 +95,7 @@ h2 {
 
 video {
     width: 100%;
+    padding: 10px;
 }
 
 footer {
@@ -100,7 +105,7 @@ footer {
     width: auto;
     font-family: "Nunito";
     padding-top: 40px;
-    color: #b8a7aa;
+    color: #47bac0;
 }
 
 .footer-content {
@@ -109,7 +114,7 @@ footer {
     width: 100vw;
     font-family: "Nunito";
     padding-top: 40px;
-    color: #b8a7aa;
+    color: #47bac0;
 }
 
 .footer-content {
@@ -144,17 +149,17 @@ footer {
 
 .socials li {
     margin: 0 10px;
-    color: #b8a7aa
+    color: #47bac0
 }
 
 .socials a {
     text-decoration: none;
-    color:#b8a7aa;
+    color:#47bac0;
 }
 
 .socials a i {
     font-size: 1.1rem;
-    color: #b8a7aa;
+    color: #47bac0;
     transition: color .4s ease;
 }
 
