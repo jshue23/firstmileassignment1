@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    
 }
 
 .navigation li a button { 
@@ -25,6 +25,9 @@
 }
 
 .navlinks li a {
+    color: #18181a;
+    text-decoration: none;
+    font-size: 18px;
     transition: all 0.3s ease 0s;
 }
 
@@ -33,12 +36,13 @@
 }
 
 #contactbutton {
+    color:#47bac0;
     font-family: "Nunito";
 }
 
 button { 
     padding: 9px 25px;
-    background-color: rgba(71,186,192,255);
+    background-color: rgba(93,76,82,255);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -46,7 +50,7 @@ button {
 }
 
 button:hover {
-    background-color:rgba(138,64,98,255)
+    background-color:rgba(24,24,26,255)
 }
 
 body {
@@ -57,8 +61,9 @@ body {
 }
 
 header {
+    background-color: #b8a7aa;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 }
@@ -69,10 +74,9 @@ h2 {
 }
 
 .siteheader {
+    color: #5d4c52;
     text-align: left;
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 10px;
+    
 }
 
 .texta {
@@ -83,6 +87,10 @@ h2 {
     color: #47bac0;
 }
 
+.aboutsection {
+    padding-top: 20px;
+}
+
 #featured-video {
     display: block;
     margin: 0 auto;
@@ -90,7 +98,7 @@ h2 {
 
 .wrapper {
     margin: 0 auto;
-    width: 1000px;
+    width: 900px;
 }
 
 video {
@@ -126,9 +134,10 @@ footer {
 }
 
 .footer-content h2 {
+    font-family: "Nunito";
     font-size: 1.8rem; 
-    font-weight: 200;
-    line-height: 3rem;
+    font-weight: normal;
+    line-height: 3rem; 
 }
 
 .footer-content p {
