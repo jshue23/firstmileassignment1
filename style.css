@@ -1,6 +1,13 @@
 body {
-    color: black;
-    background-color: #F8F0E3;
+    color: #F8F0E3;
+    background-color: #24252A;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
 
 div {
@@ -14,9 +21,22 @@ div {
 }
 
 .texta {
-    font-family: Nunito;
+    font-family: "Nunito", sans-serif;
     font-size: 18px;
     text-align: center;
-    font-display: bold;
-    color: #CBC3E3;
+    color: #F8F0E3;
+}
+
+#featured-video {
+    display: block;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+video {
+    width: 100%;
 }
