@@ -69,6 +69,7 @@ header {
 }
 
 h2 {
+    color: white;
     text-align: center;
     font-family: "Nunito";
 }
@@ -76,7 +77,6 @@ h2 {
 .siteheader {
     color: white;
     text-align: left;
-    
 }
 
 .texta {
@@ -88,7 +88,11 @@ h2 {
 }
 
 .aboutsection {
-    padding-top: 20px;
+    padding-top: 30px;
+}
+
+#featured-project p {
+    font-style: italic;
 }
 
 #featured-video {
@@ -99,11 +103,24 @@ h2 {
 .wrapper {
     margin: 0 auto;
     width: 900px;
+    padding-top: 30px;
 }
 
 video {
     width: 100%;
     padding: 10px;
+}
+
+.bodytext {
+    font-family: "Nunito";
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.list-title {
+    font-weight: bold;
+    padding-top: 1em;
 }
 
 footer {
@@ -112,7 +129,7 @@ footer {
     height: auto;
     width: auto;
     font-family: "Nunito";
-    padding-top: 40px;
+    padding-top: 20px;
     color: #47bac0;
 }
 
@@ -121,7 +138,7 @@ footer {
     height: auto;
     width: 100vw;
     font-family: "Nunito";
-    padding-top: 40px;
+    padding-top: 20px;
     color: white;
 }
 
@@ -189,3 +206,19 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+.fa-brands {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-brands:hover {
+    opacity: 0.7;
+  }
+
+  .fa-brands-linkedin {
+    color: white;
+  }
