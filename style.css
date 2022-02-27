@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    
 }
 
 .navigation li a button { 
@@ -54,6 +53,7 @@ button:hover {
 }
 
 body {
+    width: 100vw;
     color: #47bac0;
     background-color: #18181a;
     font-family: "Nunito", sans-serif;
