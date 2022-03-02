@@ -63,7 +63,7 @@ body {
 header {
     background-color: #5d4c52;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
     align-items: center;
     padding: 30px 10%;
 }
@@ -124,7 +124,7 @@ video {
 }
 
 footer {
-    position: absolute;
+    
     background: #5d4c52;
     height: auto;
     width: auto;
